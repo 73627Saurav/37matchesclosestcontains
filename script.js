@@ -23,6 +23,10 @@ Here, the sp1 element is a span element with an ID of "sp1", and it has an ances
 console.log("----------end----------")
 
 console.log(id1.contains(sp1)) // true
+/* 
+The console.log(id1.contains(sp1)) statement checks if the id1 element contains the sp1 element, and logs the resulting boolean value to the console.
+If sp1 is a descendant of id1, the method returns true, otherwise, it returns false. */
+  
 console.log(sp1.contains(sp1)) // true
 console.log(sp1.contains(id1)) // false
 
